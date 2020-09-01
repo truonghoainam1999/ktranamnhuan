@@ -1,7 +1,5 @@
-var n = 2000 ;
+var cd = 8 ;
+var cr = 6 ;
+var dt = cd + cr ;
 
-if(n % 2 == 0){
-    console.log(n ,"là số chẵn")
-}else{
-    console.log(n , "là số lẽ")
-} ;
+console.log(dt ," là diện tich hình chữ nhật")
