@@ -1,7 +1,7 @@
 var n = 2000 ;
 
-if(n % 4 == 0 || ( n % 100 == 0 && n % 400 == 0)){
-    console.log(n ,"là năm nhuân")
+if(n % 2 == 0){
+    console.log(n ,"là số chẵn")
 }else{
-    console.log(n , "là năm không nhuận")
+    console.log(n , "là số lẽ")
 } ;
