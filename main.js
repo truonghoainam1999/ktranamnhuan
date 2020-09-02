@@ -1,9 +1,10 @@
-var r , cv ,  dt ;
+var dt , dl ,  dh , dtb;
 
-r = parseInt(prompt('nhập bán kình r'));
+dt = parseInt(prompt('nhập điểm môn toán'));
+dl= parseInt(prompt('nhập điểm môn lý'));
+dh = parseInt(prompt('nhập điểm môn hóa'));
 
-cv = 2*r*3,14 ;
-dt = r*r*3,14 ;
 
-console.log("chu vi của hình tròn là " , cv);
-console.log("dien tích của hình tròn là " , dt);
+dtb = (dt + dl + dh)/3;
+console.log("Điểm trung bình là" , dtb);
+
