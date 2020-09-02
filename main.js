@@ -1,5 +1,9 @@
-var cd = 8 ;
-var cr = 6 ;
-var dt = cd + cr ;
+var r , cv ,  dt ;
 
-console.log(dt ," là diện tich hình chữ nhật")
+r = parseInt(prompt('nhập bán kình r'));
+
+cv = 2*r*3,14 ;
+dt = r*r*3,14 ;
+
+console.log("chu vi của hình tròn là " , cv);
+console.log("dien tích của hình tròn là " , dt);
